@@ -1,0 +1,122 @@
+{
+  "social": {
+    "email": "ekekwecharles50@gmail.com",
+    "github": "https://github.com/Ekekwecharles",
+    "twitter": "https://x.com/xharlessnow",
+    "linkedIn": "https://www.linkedin.com/in/xharlessnow/",
+    "resume": ""
+  },
+  "education": [
+    {
+      "degree": "Software Engineering Program",
+      "school": "ALX Africa",
+      "timeline": { "from": "Dec 2022", "to": "Nov 2024" },
+      "summary": "• A 12-month intensive program covering the foundations and core practices of software engineering. \n• I gained hands-on experience in C programming, Bash scripting, Linux systems, computer architecture, binary interpretation, reverse engineering, Python, Flask, Django, HTML, CSS, JavaScript, and React. \n• The program provided a deep understanding of how computers work from the ground up and how to build scalable software systems."
+    },
+    {
+      "degree": "Full Stack Web Development Certifications",
+      "school": "Udemy, Inc.",
+      "timeline": { "from": "Jan 2024", "to": "Mar 2025" },
+      "summary": "• After and during my ALX program, I took multiple Udemy courses to deepen my understanding of full-stack development. \n• These included certifications of completion for HTML & CSS, Advanced CSS, JavaScript, and The Ultimate React Course 2024: React, Next.js, Redux & More. \n• The React course covered Redux Toolkit, Styled Components, Tailwind CSS, API development, TypeScript, React Query, Firebase, Supabase, and authentication using context providers. \n• I also purchased a Node.js course to further strengthen my backend knowledge, though I already apply full-stack concepts using Next.js."
+    },
+    {
+      "degree": "Android Application Design and Development",
+      "school": "IEEE Skill Up",
+      "timeline": { "from": "Mar 2017", "to": "Dec 2018" },
+      "summary": "• Completed training on Android app development using Android Studio and Java. \n• The course covered UI/UX design, data persistence, and mobile software architecture. \n• Later, I complemented this knowledge by exploring Spring Boot for Java-based backend development."
+    },
+    {
+      "degree": "BEng. in Electrical Electronics Engineering",
+      "school": "Federal University of Technology Owerri, Nigeria.",
+      "timeline": { "from": "Jan 2017", "to": "Dec 2022" },
+      "summary": "• Graduated with a CGPA of 3.8. \n• Completed coursework and projects focused on electrical systems, embedded programming, signal processing, and control engineering. Developed strong analytical and problem-solving skills with a passion for applying engineering principles in software and technology."
+    }
+  ],
+  "work": [
+    {
+      "role": "Frontend Engineer",
+      "location": "Remote, WorldWide",
+      "company": "Upwork",
+      "timeline": { "from": "Jan 2023", "to": "present" },
+      "summary": "• Developed user-friendly frontend applications as a Freelance Frontend Developer. \n• Integrated Backend APIs into projects. \n• Delivered websites and web applications for international clients, such as school portals and e-commerce platforms. \n• Built responsive UIs, integrated secure payment systems, and optimized applications for SEO and performance. \n• Collaborated with clients to gather requirements, propose solutions, and deliver high-quality projects on schedule."
+    },
+    {
+      "role": "Fullstack Engineer & Mentor",
+      "location": "Remote, Lagos, Nigeria",
+      "company": "ALX Africa",
+      "timeline": { "from": "Dec 2022", "to": "Nov 2024" },
+      "summary": "• Built and maintained modern, responsive web applications, including clone projects (Discord, Airbnb, and e-commerce sites) in agile team settings. \n• Consumed APIs and implemented scalable UI components with focus on performance, accessibility, and responsiveness. \n• Taught and mentored new interns in HTML, CSS, JavaScript, Python, React, and Next.js, helping them grow into production-ready developers. \n• Managed group projects, facilitated code reviews, and guided interns in Git/GitHub workflows."
+    },
+    {
+      "role": "Lead Engineer & Manager",
+      "location": "Remote, Ontario, Canada",
+      "company": "Snoware Gadgets & Partner Shops",
+      "timeline": { "from": "Jun 2015", "to": "present" },
+      "summary": "• Sales and repair of gadgets, phones, and laptops. \n• Gained 10+ years of experience working across leading phone and laptop shops (Ritetonix Communications, A+ Gadgets, Byfix Phones & Accessories) before founding Snoware Gadgets. \n• Led technical operations: device diagnostics, repairs, assembly/disassembly, and training of junior technicians. \n• Managed business operations, including sales, marketing, and customer service, achieving strong client loyalty and consistent business growth. \n• Promoted to Manager & Operations Lead due to technical expertise and ability to oversee day-to-day shop activities."
+    }
+  ],
+  "projects": {
+    "HighEnd-Cars": {
+      "name": "HighEnd Cars",
+      "description": "\n \t • High-End Cars is a complete luxury car e-commerce platform built with Next.js. It features full car management, coupon control, user orders, chat system, and crypto payment (Coinbase Commerce) integration — all in one scalable, high-performance stack. \n \t • TECH STACK: Typescript, NextJS, Redux ToolKit, Supabase, Socket.IO(Supabase Realtime), Axios, React Query, Styled Components, React Hot Toast, Lucide React, Framer Motion, React Slick.",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1763037931/portfolio-highend_lemrkk.png",
+      "gif_url": "",
+      "live_url": "https://highendcars.vercel.app/",
+      "github_url": "https://github.com/Ekekwecharles/highendcars"
+    },
+
+    "Wild-Oasis-Customer-Facing-Website": {
+      "name": "Wild Oasis Customer Facing Website",
+      "description": "\n \t • The Wild Oasis is a customer-facing web application for a luxurious hotel. Guests can browse cabins, make reservations, manage bookings, and update profiles — all in a modern, secure, and responsive interface. \n \t • TECH STACK: NextJs, NextJs API Routes, NextAuth, Typescript, TailwindCSS, Supabase, Heroicons, React Day Picker, Date-fns.",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1763037939/wildoasis_customer_jmfn4g.png",
+      "gif_url": "",
+      "live_url": "https://wild-oasis-customer-facing-website-fawn.vercel.app/",
+      "github_url": "https://github.com/Ekekwecharles/wild-oasis-customer-facing-website"
+    },
+
+    "The-Wild-Oasis": {
+      "name": "The Wild Oasis",
+      "description": "\n \t• The Wild Oasis is an internal hotel management app to manage everything about the hotel: bookings, cabins, and guests, as well as to check in guests when they arrive. \n \t• TECH STACK: React, Supabase, React Router, React Query, React Error Boundary, React Hook Form, React Hot Toast, React Icons, Recharts, Styled Components, Date-fns.",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1763037930/wild_oasis_lyedan.png",
+      "gif_url": "",
+      "live_url": "https://wild-oasis-website-ashy.vercel.app/dashboard",
+      "github_url": "https://github.com/Ekekwecharles/wild-oasis-website"
+    },
+
+    "IP-Address-Tracker": {
+      "name": "IP Address Tracker",
+      "description": " \n \t• IP Address Tracker is a web app that allows you to track your IP address or any other IP address on the Map. \n • TECH STACK: Javascript, SCSS/SASS, Leaflet.",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1763037932/ipaddress_tracker_s5hrrb.png",
+      "gif_url": "",
+      "live_url": "https://ipaddress-tracker-seven.vercel.app/",
+      "github_url": "https://github.com/Ekekwecharles/ipaddress-tracker"
+    },
+
+    "World-Wise": {
+      "name": "World Wise",
+      "description": "\n \t World Wise is a web app for travelers to track all the cities they have been to on a map. \n • TECH STACK: React, React Router, Json Server, React Datepicker, Leaflet, SCSS/SASS.",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1763037932/worldwise_hf336z.png",
+      "gif_url": "",
+      "live_url": "https://word-wise-nu.vercel.app/",
+      "github_url": "https://github.com/Ekekwecharles/word-wise"
+    },
+
+    "Nexter": {
+      "name": "Nexter",
+      "description": "\n \t Nexter is a concept real-estate landing page built to demonstrate my mastery of advanced CSS, Grid layouts, and responsive UI design. Although not a real property website, it showcases how layout, spacing, and visual hierarchy can be combined to create a premium, modern interface. \n • TECH STACK: HTML 5, SCSS/SASS.",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1763037933/nexter_wje3z0.png",
+      "gif_url": "",
+      "live_url": "https://nexter-beige-two.vercel.app/",
+      "github_url": "https://github.com/Ekekwecharles/nexter"
+    },
+
+    "Photosnap-multipage-website": {
+      "name": "Photosnap Multipage Website",
+      "description": "\n \t Photosnap is a fully responsive multi-page website crafted to showcase my ability to build complex layouts using modern CSS, flexbox, grid systems, and clean UI structure. \n • TECH STACK: HTML 5, SCSS/SASS",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1763037932/photosnap_f1oigq.png",
+      "gif_url": "",
+      "live_url": "https://photosnap-multipage-website-theta.vercel.app/",
+      "github_url": "https://github.com/Ekekwecharles/photosnap-multipage-website"
+    }
+  }
+}
