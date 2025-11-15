@@ -114,7 +114,7 @@ const LandingPage: React.FC = () => {
 
             <SocialItem>
               <a
-                href="/public/latestcv2.pdf"
+                href={data.social.resume}
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Resume"
