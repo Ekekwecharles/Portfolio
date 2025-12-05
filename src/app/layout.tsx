@@ -14,19 +14,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <>
-      <GlobalStyle />
-      <html lang="en">
-        <head>
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-        </head>
-        <body>
-          <Toaster position="top-right" />
-          <Header />
-          {children}
-          {/* <StyledComponentsRegistry></StyledComponentsRegistry> */}
-        </body>
-      </html>
-    </>
+    <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+      </head>
+      <body>
+        <GlobalStyle />
+        <Toaster position="top-right" />
+        <Header />
+        {children}
+        {/* <StyledComponentsRegistry></StyledComponentsRegistry> */}
+      </body>
+    </html>
   );
 }
