@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import { Toaster } from "react-hot-toast";
 import "html5-device-mockups/dist/device-mockups.min.css";
-// import StyledComponentsRegistry from "../lib/registry";
+import StyledComponentsRegistry from "../lib/registry";
 
 export const metadata: Metadata = {
   title: "Ekekwe Charles",
@@ -19,11 +19,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </head>
       <body>
-        <GlobalStyle />
-        <Toaster position="top-right" />
-        <Header />
-        {children}
-        {/* <StyledComponentsRegistry></StyledComponentsRegistry> */}
+        <StyledComponentsRegistry>
+          <GlobalStyle />
+          <Toaster position="top-right" />
+          <Header />
+          {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
   );

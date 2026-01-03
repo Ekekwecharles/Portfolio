@@ -1,29 +1,8 @@
-// "use client";
-// import React from "react";
-// import { useServerInsertedHTML } from "next/navigation";
-// import { ServerStyleSheet, StyleSheetManager } from "styled-components";
-
-// export default function StyledComponentsRegistry({
-//   children,
-// }: {
-//   children: React.ReactNode;
-// }) {
-//   const [sheet] = React.useState(() => new ServerStyleSheet());
-
-//   useServerInsertedHTML(() => {
-//     const styles = sheet.getStyleElement();
-//     return <>{styles}</>;
-//   });
-
-//   return (
-//     <StyleSheetManager sheet={sheet.instance}>{children}</StyleSheetManager>
-//   );
-// }
-
 "use client";
+
+import React, { useState } from "react";
 import { useServerInsertedHTML } from "next/navigation";
 import { ServerStyleSheet, StyleSheetManager } from "styled-components";
-import { useState } from "react";
 
 export default function StyledComponentsRegistry({
   children,
@@ -33,10 +12,16 @@ export default function StyledComponentsRegistry({
   const [sheet] = useState(() => new ServerStyleSheet());
 
   useServerInsertedHTML(() => {
+    // ONLY runs on the server
     const styles = sheet.getStyleElement();
     sheet.instance.clearTag();
     return <>{styles}</>;
   });
+
+  // 🔑 CRITICAL PART
+  if (typeof window !== "undefined") {
+    return <>{children}</>;
+  }
 
   return (
     <StyleSheetManager sheet={sheet.instance}>{children}</StyleSheetManager>
