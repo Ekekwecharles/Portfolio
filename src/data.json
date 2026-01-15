@@ -56,6 +56,15 @@
     }
   ],
   "projects": {
+    "Premium-Capital": {
+      "name": "Premium Capital",
+      "description": "\n \t • Premium Capital is a high-fidelity trading & investment dashboard built to mirror real-world fintech platforms. It features role-based admin access, investment simulations, real-time updates via MongoDB Change Streams, and live customer support chat — all wrapped in a premium, production-grade UI. \n \t • TECH STACK: TypeScript, Next.js, React, Redux Toolkit, MongoDB, Mongoose, NextAuth, JWT, Styled Components, Socket.IO, SmartSupp, tsParticles, Nodemailer.",
+      "image_url": "https://res.cloudinary.com/dfleiniyd/image/upload/v1768507275/premium_capital_zsfi7f.png",
+      "gif_url": "",
+      "live_url": "https://premium-capital-platform.vercel.app/",
+      "github_url": "https://github.com/Ekekwecharles/premium-capital-platform"
+    },
+
     "HighEnd-Cars": {
       "name": "HighEnd Cars",
       "description": "\n \t • High-End Cars is a complete luxury car e-commerce platform built with Next.js. It features full car management, coupon control, user orders, chat system, and crypto payment (Coinbase Commerce) integration — all in one scalable, high-performance stack. \n \t • TECH STACK: Typescript, NextJS, Redux ToolKit, Supabase, Socket.IO(Supabase Realtime), Axios, React Query, Styled Components, React Hot Toast, Lucide React, Framer Motion, React Slick.",
